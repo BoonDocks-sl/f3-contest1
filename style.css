@@ -1,0 +1,60 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+#successMessage {
+  color: green;
+}
+
+#errorMessage {
+  color: red;
+}
+.formm {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+
+input{
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 10px;
+}
+.employee-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+.employee-details {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.delete-button {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  width: 10%;
+}
+
+#initialMessage {
+  display: block;
+}
